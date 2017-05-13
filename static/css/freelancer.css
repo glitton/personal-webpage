@@ -3,9 +3,42 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ /*Generosa Litton - Added my own CSS to this too */
+ 
+.circle {
+    border-radius: 50%;
+}
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Baloo', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.img-portfolio {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+header .intro-text .name {
+  display: block;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
 }
 p {
   font-size: 20px;
@@ -19,17 +52,7 @@ a:focus,
 a:active,
 a.active {
   color: #18BC9C;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-}
+
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -79,13 +102,7 @@ header img {
   display: block;
   margin: 0 auto 20px;
 }
-header .intro-text .name {
-  display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1em;
-}
+
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
@@ -102,13 +119,35 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+
+section {
+  padding: 100px 0;
+}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+section.success {
+  background: #18BC9C;
+  color: white;
+}
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
+
 .navbar-custom {
   background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
 }
+
 .navbar-custom .navbar-brand {
   color: white;
 }
@@ -173,25 +212,9 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
-section {
-  padding: 100px 0;
-}
-section h2 {
-  margin: 0;
-  font-size: 3em;
-}
-section.success {
-  background: #18BC9C;
-  color: white;
-}
-@media (max-width: 767px) {
-  section {
-    padding: 75px 0;
-  }
-  section.first {
-    padding-top: 75px;
-  }
-}
+
+
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
