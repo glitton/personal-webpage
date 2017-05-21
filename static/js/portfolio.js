@@ -2,11 +2,10 @@
 
 $(document).ready(function(){
     // Stops YouTube video when modal window is closed
-    $("#portfolioModal1").on('hidden.bs.modal', function (evt) {
-      $("#pawsvideo").attr("src", $("#pawsvideo").attr("src"));
-    });
-
-
-
-
-});
+    $('.close-youtube').on('click', function(){
+        var video = $('.you-tube').attr('src');
+          $('.you-tube').attr('src','');
+          $('.you-tube').attr('src', video);
+        }
+      )
+  });
