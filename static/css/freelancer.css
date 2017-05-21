@@ -44,6 +44,13 @@ h4 {
     margin: auto;
 }
 
+#img-shark-eel {
+    height: 300px;
+    width: 450px;
+    display: inline;
+    margin: auto;
+}
+
 header .intro-text .name {
   display: block;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
