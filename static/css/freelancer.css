@@ -71,6 +71,7 @@ a:active,
 a.active {
   color: #18BC9C;
 
+
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -280,6 +281,7 @@ section.success {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+
 }
 .floating-label-form-group {
   position: relative;
@@ -472,6 +474,7 @@ fieldset[disabled] .btn-success.active {
   border-radius: 100%;
   line-height: 28px;
 }
+
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -554,4 +557,8 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
+}
+
+#download-link {
+  color: white;
 }
