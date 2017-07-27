@@ -35,6 +35,22 @@ $(document).ready(function(){
         }
       )
 
+    // Whale shark video
+    $('.close-whale-shark').on('click', function(){
+        var video = $('#whale-shark').attr('src');
+          $('#whale-shark').attr('src','');
+          $('#whale-shark').attr('src', video);
+        }
+      )
+
+    // Sea lions video
+    $('.close-sea-lions').on('click', function(){
+        var video = $('#sea-lions').attr('src');
+          $('#sea-lions').attr('src','');
+          $('#sea-lions').attr('src', video);
+        }
+      )    
+
 
 
 
