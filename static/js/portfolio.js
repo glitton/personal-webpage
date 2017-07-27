@@ -19,6 +19,21 @@ $(document).ready(function(){
         }
       )
 
+    // Microgrids video
+    $('.close-microgrids').on('click', function(){
+        var video = $('#microgrids').attr('src');
+          $('#microgrids').attr('src','');
+          $('#microgrids').attr('src', video);
+        }
+      )
+
+    // Analytics video
+    $('.close-analytics').on('click', function(){
+        var video = $('#analytics').attr('src');
+          $('#analytics').attr('src','');
+          $('#analytics').attr('src', video);
+        }
+      )
 
 
 
