@@ -23,6 +23,7 @@ h6 {
   font-family: 'Baloo', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  text-align: center;
 }
 
 h4 {
@@ -57,19 +58,22 @@ header .intro-text .name {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 4em;
+  letter-spacing: 2px
 }
+
 p {
   font-size: 20px;
 }
 p.small {
   font-size: 16px;
 }
+
 a,
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #4e21f3;
 
 
 hr.star-light,
@@ -81,6 +85,7 @@ hr.star-primary {
   max-width: 250px;
   margin: 25px auto 30px;
 }
+
 hr.star-light:after,
 hr.star-primary:after {
   content: "\f005";
@@ -126,6 +131,11 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+
+.contact-me {
+  background-image: url("../img/email.jpg");
+}
+  
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
