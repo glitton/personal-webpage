@@ -9,6 +9,11 @@
     border-radius: 50%;
 }
 
+.navbar-brand>img {
+    display: inline-block;
+    margin-top: -25px;
+}    
+
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
